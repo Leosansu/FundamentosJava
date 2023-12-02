@@ -1,3 +1,5 @@
+package AppHotel;
+
 public class AluguelQuarto {
    private String nome;
    private Integer quarto;
