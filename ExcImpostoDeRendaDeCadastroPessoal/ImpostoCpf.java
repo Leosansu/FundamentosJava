@@ -1,16 +1,16 @@
 package ExcImpostoDeRendaDeCadastroPessoal;
 
-public class Cpf extends CadastroPessoa {
+public class ImpostoCpf extends CadastroPessoa {
     private Double GastosSaude;
 
-    public Cpf() {
+    public ImpostoCpf() {
     }
 
-    public Cpf(Double gastosSaude) {
+    public ImpostoCpf(Double gastosSaude) {
         GastosSaude = gastosSaude;
     }
 
-    public Cpf(String nome, Double rendaAnual, Double gastosSaude) {
+    public ImpostoCpf(String nome, Double rendaAnual, Double gastosSaude) {
         super(nome, rendaAnual);
         GastosSaude = gastosSaude;
     }

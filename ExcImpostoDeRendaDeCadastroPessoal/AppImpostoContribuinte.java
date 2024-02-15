@@ -25,13 +25,13 @@ public class AppImpostoContribuinte {
             if(cpfOuCnpj.equalsIgnoreCase("i")){
                 System.out.print("Gastos com saúde: ");
                 Double gastosSaude = sc.nextDouble();
-                pessoaList.add(new Cpf(nome,despesa,gastosSaude));
+                pessoaList.add(new ImpostoCpf(nome,despesa,gastosSaude));
 
             }
             else{
                 System.out.print("Quantidade de funcionários: ");
                 int funcionarios = sc.nextInt();
-                pessoaList.add(new Cnpj(nome,despesa,funcionarios));
+                pessoaList.add(new ImpostoCnpj(nome,despesa,funcionarios));
             }
 
         }

@@ -1,18 +1,18 @@
 package ExcImpostoDeRendaDeCadastroPessoal;
 
-public class Cnpj extends CadastroPessoa {
+public class ImpostoCnpj extends CadastroPessoa {
     private Integer numeroFuncionarios;
 
-    public Cnpj() {
+    public ImpostoCnpj() {
         super();
 
     }
 
-    public Cnpj(Integer numeroFuncionarios) {
+    public ImpostoCnpj(Integer numeroFuncionarios) {
         this.numeroFuncionarios = numeroFuncionarios;
     }
 
-    public Cnpj(String nome, Double rendaAnual, Integer numeroFuncionarios) {
+    public ImpostoCnpj(String nome, Double rendaAnual, Integer numeroFuncionarios) {
         super(nome, rendaAnual);
         this.numeroFuncionarios = numeroFuncionarios;
     }
